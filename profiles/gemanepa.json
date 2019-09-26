@@ -1,0 +1,23 @@
+{
+  "name": "gemanepa",
+  "location": "Chaco, Argentina",
+  "website": "https://gemanepa.com",
+  "links": [
+      {
+          "label": "Github",
+          "url": "https://github.com/gemanepa"
+      },
+      {
+          "label": "DEV",
+          "url": "https://dev.to/gemanepa"
+      },
+      {
+          "label": "FreeCodeCamp",
+          "url": "https://www.freecodecamp.org/gemanepa"
+      },
+      {
+          "label": "LinkedIn",
+          "url": "https://linkedin.com/in/gemanepa"
+      }
+  ]
+}
