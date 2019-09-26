@@ -1,0 +1,19 @@
+{
+  "name": "i-am",
+  "version": "1.0.0",
+  "description": "NPX profile cards for the masses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "i-am": "./index.js"
+  },
+  "author": "Samuel Beard",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^4.1.0",
+    "cfonts": "^2.4.5",
+    "chalk": "^2.4.2"
+  }
+}
