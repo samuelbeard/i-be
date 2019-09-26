@@ -1,4 +1,15 @@
 {
     "name": "Samuel Beard",
-    "website": "https://samuelbeard.net"
+    "location": "Cheltenham, UK",
+    "website": "https://samuelbeard.net",
+    "links": [
+        {
+            "label": "Github",
+            "url": "https://github.com/samuelbeard"
+        },
+        {
+            "label": "dev.to",
+            "url": "https://dev.to/samuelbeard"
+        }
+    ]
 }

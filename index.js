@@ -22,8 +22,20 @@ const showName = () => {
     return bigName.string
 }
 
+const showLocation = () => chalk`{white Location:}    {cyan ${jsonFile['location']}}`
+
+const showWebsite = () => chalk`{white Website:}     {cyan {underline ${jsonFile['website']}}}`
+
+const showLinks = () => jsonFile.links.map(link => chalk`{grey ${link.label}:} {yellow ${link.url}}`).join('\n')
+
 const displayAll = () => `
 ${showName()}
+
+${showLocation()}
+
+${showWebsite()}
+
+${showLinks()}
 `
 
 console.log(boxen(displayAll(), { padding: 1, margin: 1, borderStyle: 'round' }))
