@@ -4,6 +4,11 @@ Have you every seen those little cards people make with information about themse
 
 I figured, instead of everyone making their own, lets make one BIG one that everyone can contribute to!
 
+```
+npx i-am samuelbeard
+```
+![example](./example.png)
+
 ---
 
 ## How it works
