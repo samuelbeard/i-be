@@ -5,7 +5,7 @@ Have you every seen those little cards people make with information about themse
 I figured, instead of everyone making their own, lets make one BIG one that everyone can contribute to!
 
 ```
-npx i-am samuelbeard
+npx i-be samuelbeard
 ```
 ![example](./example.png)
 
@@ -16,10 +16,10 @@ npx i-am samuelbeard
 Simply run the command below with your username to get back your personal card.
 
 ```sh
-npx i-am {username}
+npx i-be {username}
 
 # eg:
-npx i-am samuelbeard
+npx i-be samuelbeard
 ```
 
 > For yours to work, you will need to create it. Have a read of the contributing section below.
