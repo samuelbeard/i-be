@@ -1,4 +1,4 @@
-# I AM
+# I BE
 
 Have you every seen those little cards people make with information about themselves on. You know. The ones that are node packages. The ones where you go `npx samuelbeard` and it displays it in the terminal.
 
