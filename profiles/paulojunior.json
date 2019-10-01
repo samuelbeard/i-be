@@ -1,0 +1,16 @@
+
+{
+    "name": "Paulo Junior",
+    "location": "Sao Paulo, BR",
+    "website": "https://paulaodev.com",
+    "links": [
+        {
+            "label": "Github",
+            "url": "https://github.com/paulooosrj"
+        },
+        {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/paulooosrj/"
+        }
+    ]
+}
