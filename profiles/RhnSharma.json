@@ -1,0 +1,15 @@
+{
+    "name": "Rohan Sharma",
+    "location": "New Delhi, India",
+    "website": "https://rhnsharma.wordpress.com",
+    "links": [
+        {
+            "label": "Github",
+            "url": "https://github.com/RhnSharma"
+        },
+        {
+            "label": "Freecodecamp",
+            "url": "https://www.freecodecamp.org/rhnsharma"
+        }
+    ]
+}

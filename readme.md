@@ -26,6 +26,19 @@ npx i-be samuelbeard
 
 ---
 
+## Development
+
+If you want to test your card, just run this:
+
+```sh
+node index {username}
+
+# eg:
+node index samuelbeard
+```
+
+---
+
 ## Contributing
 
 Here is how to get your card working:
