@@ -1,0 +1,15 @@
+{
+    "name": "Derek Lucas",
+    "location": "Chattanooga, TN",
+    "website": "https://derekplucas.com",
+    "links": [
+        {
+            "label": "Github",
+            "url": "https://github.com/dereklucas"
+        },
+        {
+            "label": "    SO",
+            "url": "https://stackoverflow.com/cv/dereklucas"
+        }
+    ]
+}
