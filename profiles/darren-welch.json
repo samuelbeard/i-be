@@ -1,0 +1,19 @@
+{
+    "name": "Darren Welch",
+    "location": "London, UK",
+    "website": "https://darrenwelch.co.uk",
+    "links": [
+        {
+            "label": "Github",
+            "url": "https://github.com/darren-welch"
+        },
+        {
+            "label": "Twitter",
+            "url": "https://twitter.com/darrenleewelch"
+        },
+        {
+            "label": "Linked In",
+            "url": "https://www.linkedin.com/in/darren-welch/"
+        }
+    ]
+}

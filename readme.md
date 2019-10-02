@@ -1,6 +1,6 @@
 # I BE
 
-Have you every seen those little cards people make with information about themselves on. You know. The ones that are node packages. The ones where you go `npx samuelbeard` and it displays it in the terminal.
+Have you ever seen those little cards people make with information about themselves on. You know. The ones that are node packages. The ones where you go `npx samuelbeard` and it displays it in the terminal.
 
 I figured, instead of everyone making their own, lets make one BIG one that everyone can contribute to!
 
