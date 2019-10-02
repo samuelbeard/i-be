@@ -1,0 +1,15 @@
+{
+	"name": "Jacob Reed",
+	"location": "Tacoma, WA",
+	"website": "https://jacobrreed.io",
+	"links": [
+		{
+			"label": "Github",
+			"url": "https://github.com/JacobRReed"
+		},
+		{
+			"label": "dev.to",
+			"url": "https://dev.to/jacobrreed"
+		}
+	]
+}
