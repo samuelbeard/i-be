@@ -10,32 +10,36 @@ const jsonFile = require(`./profiles/${username}`)
 
 console.log(username)
 
+let displayAll = ``
+
 /**
  * Renders an ascii art style name.
  */
-const showName = () => {
-    const bigName = cfonts.render(jsonFile.name, {
-        colors: ['yellow'],
-        font: 'simple',
-    })
+const bigName = cfonts.render(jsonFile.name, {
+    colors: ['yellow'],
+    font: 'simple',
+})
+displayAll += bigName.string
 
-    return bigName.string
+/**
+ * Renders location if it exists.
+ */
+if (jsonFile.location) {
+    displayAll += '\n\n' + chalk`{white Location:}    {cyan ${jsonFile['location']}}`
 }
 
-const showLocation = () => chalk`{white Location:}    {cyan ${jsonFile['location']}}`
+/**
+ * Renders website if it exists.
+ */
+if (jsonFile.website) {
+    displayAll += '\n\n' + chalk`{white Website:}     {cyan {underline ${jsonFile['website']}}}`
+}
 
-const showWebsite = () => chalk`{white Website:}     {cyan {underline ${jsonFile['website']}}}`
+/**
+ * Renders links if there are a least one.
+ */
+if (jsonFile.links) {
+    displayAll += '\n\n' + jsonFile.links.map(link => chalk`{grey ${link.label}:} {yellow ${link.url}}`).join('\n')
+}
 
-const showLinks = () => jsonFile.links.map(link => chalk`{grey ${link.label}:} {yellow ${link.url}}`).join('\n')
-
-const displayAll = () => `
-${showName()}
-
-${showLocation()}
-
-${showWebsite()}
-
-${showLinks()}
-`
-
-console.log(boxen(displayAll(), { padding: 1, margin: 1, borderStyle: 'round' }))
+console.log(boxen(displayAll, { padding: 1, margin: 1, borderStyle: 'round' }))
