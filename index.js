@@ -6,7 +6,17 @@ const chalk = require('chalk')
 
 const username = process.argv[2]
 
-const jsonFile = require(`./profiles/${username}`)
+let jsonFile;
+
+/**
+ * Checks if the profile exists
+ */
+try {
+    jsonFile = require(`./profiles/${username}`)
+} catch (e) {
+    console.log(`Profile "${username}" doesn't exist!`)
+    process.exit(0)
+}
 
 console.log(username)
 
