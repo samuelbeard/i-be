@@ -1,0 +1,19 @@
+{
+    "name": "Erno Salo",
+    "location": "Helsinki, Finland",
+    "website": "https://endormi.io",
+    "links": [
+        {
+            "label": "Github",
+            "url": "https://github.com/endormi"
+        },
+        {
+            "label": "dev.to",
+            "url": "https://dev.to/endormi"
+        },
+        {
+            "label": "Twitter",
+            "url": "https://twitter.com/_endormi"
+        }
+    ]
+}
