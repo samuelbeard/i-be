@@ -1,0 +1,15 @@
+{
+  "name": "Jason Boyle",
+  "location": "Portland, Maine",
+  "website": "https://jason-boyle.com",
+  "links": [
+      {
+          "label": "Github",
+          "url": "https://github.com/Jaace"
+      },
+      {
+          "label": "Linkedin",
+          "url": "https://www.linkedin.com/in/jasonboyle/"
+      }
+  ]
+}
