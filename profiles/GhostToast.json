@@ -1,0 +1,15 @@
+{
+    "name": "Gustave F. Gerhardt",
+    "location": "IL",
+    "website": "http://ghosttoa.st",
+    "links": [
+        {
+            "label": "WordPress Development",
+            "url": "https://wordpress.stackexchange.com/users/13676/ghosttoast"
+        },
+        {
+            "label": "GitHub",
+            "url": "https://github.com/GhostToast"
+        }
+    ]
+}
