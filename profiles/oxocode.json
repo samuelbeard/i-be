@@ -1,0 +1,22 @@
+{
+  "name": "Courtney Ivey",
+  "location": "Torrance, CA",
+  "links": [
+    {
+      "label": "Github",
+      "url": "https://github.com/oxocode"
+    },
+    {
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/courtney-ivey"
+    },
+    {
+      "label": "HackerRank",
+      "url": "https://www.hackerrank.com/oxocode"
+    },
+    {
+      "label": "dev.to",
+      "url": "https://dev.to/oxocode"
+    }
+  ]
+}
